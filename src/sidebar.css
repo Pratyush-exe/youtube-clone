@@ -1,0 +1,16 @@
+.sidebar {
+    display: flex;
+    flex: 0.2;
+    flex-flow: column;
+    z-index: 99;
+    background-color: whitesmoke;
+    /* give 20% space of screen to sidebar */
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

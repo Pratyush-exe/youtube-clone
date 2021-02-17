@@ -1,0 +1,32 @@
+.Searchpage {
+    flex: 0.8;
+    background-color: #F9F9F9;
+    padding: 20px 20px;
+}
+
+.Searchpage_filter {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small;
+}
+
+.Searchpage_filter > h2 {
+    margin-left: 10px;
+}
+
+.Searchpage > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.latest_text {
+    font-family: 'Calibri';
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}

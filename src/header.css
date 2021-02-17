@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: whitesmoke;
+}
+
+.header_logo {
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_input {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid gray;
+}
+
+.header_input > input {
+    flex: 1;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+}
+
+.header_inputButton {
+    width: 50px;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+
+.header_icons {
+    display: flex;
+    align-items: center;
+}
+
+.header_icon {
+    cursor: pointer;
+    color: darkgray;
+    margin-right: 20px;
+}
+
+.Hamburger {
+    cursor: pointer;
+    color: black;
+}
+
+.mydp {
+    cursor: pointer;
+}
+
+.clone {
+    font-size: 10px;
+    margin-left: 5px;
+    color: gray;
+}

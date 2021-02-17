@@ -1,0 +1,56 @@
+.channelrow {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.channelrow_text {
+    display: flex;
+    font-family: 'Calibri';
+    font-size: medium;
+    flex-direction: column;
+}
+
+.channelrow_text > p {
+    color: #606060;
+    font-size: small;
+}
+
+.channelrow_logo {
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+.verified_channel {
+    height: 20px !important;
+    width: auto !important;
+    margin-left: 15px;
+    color: gray;
+}
+
+.channelrow_text > h4 {
+    display: flex;
+    align-items: center;
+}
+
+.subsrow {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.notification {
+    color: gray;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.notification > h4 {
+    font-family: 'Calibri';
+    padding: 7px 20px;
+    background-color:rgb(240, 240, 240);
+}
+
+.notification_logo {
+    padding-left: 10px;
+}

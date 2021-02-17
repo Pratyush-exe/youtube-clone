@@ -1,0 +1,19 @@
+.RecommendVideos {
+    flex: 0.8;
+    /* give 80% space to RecommendVideos */
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.RecommendVideos > h2 {
+    font-family: 'Calibri';
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.RecommendVideos_videos {
+    display: flex;
+    flex-wrap: wrap;
+}
